@@ -1,0 +1,144 @@
+Sure, here are separate answers to each of your viva questions:
+
+1. **Why python is called Object-oriented language?**
+   Python is called an object-oriented language because it supports the principles of object-oriented programming (OOP). In Python, everything is an object, and you can create and manipulate objects, which encapsulate data and behavior, using classes and objects. Python allows you to define classes, create objects from those classes, and use inheritance and polymorphism, which are fundamental concepts of object-oriented programming.
+
+2. **What are the characteristics of Python?**
+   Python has several characteristics, including:
+   - Interpreted language.
+   - High-level language.
+   - Dynamically typed.
+   - Supports multiple programming paradigms (e.g., procedural, object-oriented, functional).
+   - Extensive standard library.
+   - Readable and expressive syntax.
+   - Cross-platform (works on various operating systems).
+   - Automatic memory management (garbage collection).
+
+3. **Who is the founder of Python?**
+   Python was created by Guido van Rossum and was first released in 1991. Guido van Rossum is often referred to as the "Benevolent Dictator For Life" (BDFL) of Python, as he played a significant role in its development.
+
+4. **Why List is called Sequential and mutable data type?**
+   Lists in Python are called sequential and mutable data types because they:
+   - Are ordered collections of elements (sequential), meaning you can access elements by their index.
+   - Allow you to add, remove, or modify elements after the list is created (mutable).
+
+5. **Give examples of immutable data types.**
+   Examples of immutable data types in Python include:
+   - Strings
+   - Tuples
+   - Numbers (integers, floats)
+   - Frozen sets
+
+6. **Give the differences between Python and C languages.**
+   Some differences between Python and C include:
+   - Python is an interpreted language, while C is a compiled language.
+   - Python is dynamically typed, whereas C is statically typed.
+   - Python has automatic memory management (garbage collection); C requires manual memory management.
+   - Python is higher-level and more readable than C.
+   - Python has a large standard library; C relies more on external libraries.
+   - C is often used for systems programming, while Python is used for various applications, including web development and data analysis.
+
+7. **Give the differences between Dictionary and Tuple.**
+   - A dictionary is a collection of key-value pairs, while a tuple is an ordered collection of elements.
+   - Dictionaries are mutable, meaning you can change their content; tuples are immutable.
+   - Dictionary elements are accessed by keys, while tuple elements are accessed by indices.
+   - Dictionaries are enclosed in curly braces `{}`, while tuples use parentheses `()`.
+   - Dictionaries have no guaranteed order, while tuples are ordered.
+
+8. **Explain Escape characters in Python.**
+   Escape characters in Python are special characters preceded by a backslash `\`. They are used to represent characters that cannot be easily typed directly in a string. For example, `'\n'` represents a newline character, and `'\\'` represents a literal backslash.
+
+9. **How to give multiline comment in Python?**
+   In Python, multiline comments are often achieved using triple-quotes (`'''` or `"""`). For example:
+   ```python
+   '''
+   This is a multiline comment.
+   It can span multiple lines.
+   '''
+   ```
+
+10. **What are the supported data types in Python?**
+    Python supports various data types, including:
+    - Numeric types (integers, floats, complex numbers)
+    - Strings
+    - Lists
+    - Tuples
+    - Dictionaries
+    - Sets
+    - Booleans
+    - None (a special type representing the absence of a value)
+
+REST FROM 11 TO 20
+
+Certainly, here are answers to the remaining questions:
+
+11. **What is the output of `print str[0]` if `str = 'Hello World!'`?**
+    The output will be `'H'`. In Python, strings are indexed starting from 0, so `str[0]` accesses the first character of the string.
+
+12. **What is the output of `print str[2:5]` if `str = 'Hello World!'`?**
+    The output will be `'llo'`. This is a substring that starts at index 2 (inclusive) and ends at index 5 (exclusive) in the string `'Hello World!'`.
+
+13. **What is the output of `print str * 2` if `str = 'Hello World!'`?**
+    The output will be `'Hello World!Hello World!'`. It concatenates the string `'Hello World!'` with itself twice.
+
+14. **How will you convert a string to an int in Python?**
+    You can convert a string to an integer in Python using the `int()` function. For example:
+    ```python
+    str_num = '42'
+    int_num = int(str_num)
+    ```
+
+15. **What is the purpose of `//` operator?**
+    The `//` operator is used for floor division in Python. It divides two numbers and returns the largest integer less than or equal to the quotient. For example, `7 // 2` would result in `3` because it discards the fractional part of the division.
+
+16. **Explain polymorphism and Encapsulation in Python.**
+    - **Polymorphism:** Polymorphism is a concept in object-oriented programming where objects of different classes can be treated as objects of a common base class. In Python, this is achieved through method overriding and duck typing. It allows you to write code that can work with objects of various types without knowing their specific classes.
+
+    - **Encapsulation:** Encapsulation is one of the fundamental principles of OOP. It involves bundling the data (attributes) and methods (functions) that operate on that data into a single unit called a class. Encapsulation helps in hiding the internal implementation details of an object and provides a clean interface for interacting with it.
+
+17. **Give the difference between shallow copy and deep copy.**
+    - A shallow copy of an object creates a new object, but it does not create copies of the nested objects contained within the original object. Instead, it copies references to those nested objects. Modifying a nested object in a shallow copy will affect the original object.
+
+    - A deep copy of an object creates a completely independent copy of the original object and all the objects nested within it. Modifying a nested object in a deep copy will not affect the original object.
+
+18. **Discuss Inheritance.**
+    Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a new class (the subclass or derived class) to inherit properties and methods from an existing class (the superclass or base class). This promotes code reuse and establishes an "is-a" relationship between classes. In Python, inheritance is achieved using the `class` keyword and can be used to create hierarchies of classes with increasing levels of specialization.
+
+19. **Explain class concepts in Python.**
+    In Python, a class is a blueprint for creating objects. It defines attributes (data members) and methods (functions) that belong to the objects created from the class. Key concepts related to classes in Python include:
+    - **Attributes:** These are variables that store data.
+    - **Methods:** These are functions that perform actions or operations.
+    - **Object:** An instance of a class.
+    - **Constructor:** A special method (`__init__`) used to initialize object attributes.
+    - **Inheritance:** The ability of a class to inherit attributes and methods from another class.
+    - **Encapsulation:** The bundling of data and methods into a single unit (class).
+    - **Polymorphism:** The ability of different classes to be treated as instances of a common base class.
+
+20. **Find the output for the following code:**
+    ```python
+    a, b = 0, 1
+    nterms = 10
+    count = 0
+
+    while count < nterms:
+        print(a)
+        nth = a + b
+        # update values
+        a = b
+        b = nth
+        count += 1
+    ```
+    This code prints the first 10 numbers in the Fibonacci sequence, starting from 0 and 1. The output will be:
+    ```
+    0
+    1
+    1
+    2
+    3
+    5
+    8
+    13
+    21
+    34
+    ```
+
